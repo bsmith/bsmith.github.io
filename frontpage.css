@@ -1,0 +1,27 @@
+@font-face { font-family: "Latin Modern Roman 5"; src: url("lmroman5-regular.otf"); }
+@font-face { font-family: "Latin Modern Roman 6"; src: url("lmroman6-regular.otf"); }
+@font-face { font-family: "Latin Modern Roman 7"; src: url("lmroman7-regular.otf"); }
+@font-face { font-family: "Latin Modern Roman 8"; src: url("lmroman8-regular.otf"); }
+@font-face { font-family: "Latin Modern Roman 9"; src: url("lmroman9-regular.otf"); }
+@font-face { font-family: "Latin Modern Roman 10"; src: url("lmroman10-regular.otf"); }
+@font-face { font-family: "Latin Modern Roman 12"; src: url("lmroman12-regular.otf"); }
+@font-face { font-family: "Latin Modern Roman 17"; src: url("lmroman17-regular.otf"); }
+
+
+:root {
+    --bs-body-font-family: "Latin Modern Roman 12";
+    --title-font-family: "Latin Modern Roman 17";
+    --bs-body-bg: silver;
+}
+
+h1 {
+    font-family: var(--title-font-family);
+    text-shadow: 0.5px 0 0 white, -0.5px 0 0 white, 0 0.5px 0 white, 0 -0.5px 0 white;
+}
+
+article {
+    max-width: 65ex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2.5rem;
+}
