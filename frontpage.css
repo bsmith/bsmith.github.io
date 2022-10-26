@@ -9,14 +9,23 @@
 
 
 :root {
-    --bs-body-font-family: "Latin Modern Roman 12";
+    --bs-body-font-family: "Latin Modern Roman 10";
+    --bs-body-font-size: 1.125rem;
     --title-font-family: "Latin Modern Roman 17";
+    /* --title-font-family: "Latin Modern Roman 9"; */
+    --heading-font-family: "Latin Modern Roman 8";
     --bs-body-bg: silver;
 }
 
-h1 {
+.title {
+    text-align: center;
     font-family: var(--title-font-family);
+    font-size: 3rem;
     text-shadow: 0.5px 0 0 white, -0.5px 0 0 white, 0 0.5px 0 white, 0 -0.5px 0 white;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font-family);
 }
 
 article {
