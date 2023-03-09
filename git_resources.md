@@ -7,3 +7,4 @@
 * [git awsome-ness [git rebase --interactive]](https://web.archive.org/web/20080325102721/http://blog.madism.org/index.php/2007/09/09/138-git-awsome-ness-git-rebase-interactive)
 * [10 things I hate about Git](https://stevebennett.me/2012/02/24/10-things-i-hate-about-git/)
 
+* https://stackoverflow.com/questions/14613540/do-git-tags-only-apply-to-the-current-branch
